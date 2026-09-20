@@ -66,7 +66,9 @@ header{
     background-color: #e2e2d9cf;
     display: flex;
     padding: 45px 0 0 30px;
+    transition: 1s;
 }
+
 
 
 #pierwszy{
@@ -137,9 +139,13 @@ header{
     text-align: left;
 }
 #drugi img{
-    
     border-radius: 15px;
     outline: 2.5px solid #6d6453 ;
+    transition: 0.2s;
+}
+
+#drugi img:hover{
+    scale: 105%;
 }
 
 
@@ -154,24 +160,27 @@ header{
     
 
 }
-
 #lewyPierwszy:hover{
     background-color: #b4b3b08e;
-    
+        font-size: 52px;
+
 }
 
 #lewyDrugi:hover{
     background-color: #b4b3b08e;
+    font-size: 52px;
 
 }
 
 #lewyTrzeci:hover{
     background-color: #b4b3b08e;
+    font-size: 52px;
 
 }
 
 #lewyCzwarty:hover{
     background-color: #b4b3b08e;
+    font-size: 52px;
 
 }
 aside ul{
@@ -184,18 +193,21 @@ aside ul{
 a{
     color: #746f65;
     text-decoration: none;
-    font-size: 50px;
     transition: 0.2s;
-
+    width: 100%;
+    height: 100%;  
+    justify-content: center;
+    align-items: center;  
+    display: flex;
 }
-a:hover{
-    color: #635f57;
-    text-decoration: none;
+
+aside a:hover{
     font-size: 52px;
 }
 
+
 aside{
-        position: relative;
+    position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0 15px 15px 0;
     flex-direction: column;
@@ -230,6 +242,7 @@ aside{
     padding: 15px 10px;
     height: 25%;
     transition: background-color 0.3s;
+    font-size: 50px;
 }
 aside:hover{
     transform: translate(0);
