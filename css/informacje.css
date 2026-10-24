@@ -1,0 +1,122 @@
+html, body{
+    margin: 0;
+    background-color: #e2e2d9cf;
+
+}
+@font-face {
+    font-family: 'ArchivoBlack-Regular';
+    src: url(./font/PT_Serif_Caption/PTSerifCaption-Regular.ttf) format('truetype');
+}
+header h1{
+    transition: 0.5s;
+    font-size: 49px;
+
+}
+header h1:hover{
+    font-size: 52px;
+}
+
+header{
+    color: rgba(255, 255, 255, 0.727);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 100%;
+    background-color: #897d66;
+    font-family: 'ArchivoBlack-Regular';
+    border-bottom: 3px solid #6d6453;
+    border-right: 3px solid rgb(108, 101, 87)
+}
+
+
+
+main{
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    height: 206vh;
+    width: 100%;
+    background-color: #e2e2d9cf;
+    display: flex;
+    padding: 45px 0 0 30px;
+    transition: 1s;
+}
+
+#pierwszy,
+#drugii,
+#trzeci,
+#czwarty{
+    padding: 0 0 0 0;
+    display: flex;
+    color: #5a554a;
+
+}
+#pierwszy h3,
+#drugii h3,
+#trzeci h3,
+#czwarty h3{
+    font-size: 32px;
+    padding: 70px 0 0 30px;
+}
+
+footer h2{
+    color: rgba(255, 255, 255, 0.734);
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.734);
+    font-size: 25px;
+}
+footer small{
+    color: rgba(255, 255, 255, 0.734);
+
+}
+footer li{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.734);
+    transition: 0.75s;
+
+}
+footer li:hover{
+    font-size: 26px;
+}
+
+
+#drugi h2{
+
+    display: flex;
+    font-size: 30px;
+    color: #5a554a;
+    text-align: left;
+}
+#drugi img{
+    border-radius: 15px;
+    outline: 2.5px solid #6d6453 ;
+    transition: 0.2s;
+}
+
+#drugi img:hover{
+    scale: 105%;
+}
+
+
+
+footer{
+    border-top: 3px solid #696356;
+    border-right: 3px solid #696356;
+    border-radius: 10px 10px 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    clear: both;
+    font-size: 20px;
+    width: 100%;
+    background-color: #797161;
+
+}
