@@ -1,0 +1,127 @@
+html, body{
+    margin: 0;
+    background-color: #e2e2d9cf;
+
+}
+@font-face {
+    font-family: 'ArchivoBlack-Regular';
+    src: url(./font/PT_Serif_Caption/PTSerifCaption-Regular.ttf) format('truetype');
+}
+header h1{
+    transition: 0.5s;
+    font-size: 49px;
+
+}
+header h1:hover{
+    font-size: 52px;
+}
+
+header{
+    color: rgba(255, 255, 255, 0.727);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 100%;
+
+    background-color: #897d66;
+    font-family: 'ArchivoBlack-Regular';
+    border-bottom: 3px solid #6d6453;
+    border-right: 3px solid rgb(108, 101, 87)
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d6d6cecf;
+    border-radius: 8px;
+}
+main section div h2{
+    font-size: clamp(18px, 2vw, 10px);
+}
+main section div img{
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+#kategorie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+main section div{
+    
+    box-sizing: border-box;
+    height: 200px;
+    font-family: 'ArchivoBlack-Regular';
+    color: rgba(255, 255, 255, 0.734);
+    width: 150px;
+    border-radius: 7px;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #797161ab;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    box-shadow: 0 0 35px 0 rgba(3, 3, 3, 0.3);
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 66vh;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e2e2d9cf;
+    padding: 45px 30px;
+}
+
+
+
+footer h2{
+    color: rgba(255, 255, 255, 0.734);
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.734);
+    font-size: 25px;
+}
+footer small{
+    color: rgba(255, 255, 255, 0.734);
+
+}
+footer li{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.734);
+    transition: 0.75s;
+
+}
+footer li:hover{
+    font-size: 26px;
+}
+
+
+footer{
+    border-top: 3px solid #696356;
+    border-right: 3px solid #696356;
+    border-radius: 10px 10px 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    clear: both;
+    font-size: 20px;
+    width: 100%;
+    background-color: #797161;
+
+}
